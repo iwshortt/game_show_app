@@ -89,12 +89,24 @@ button {
 }
 
 .space {
-  width: 15px;
+  height: 65px;
+  width: 65px;
+  padding: 20px 1px 0 1px;
+  margin-right: 2px;
 }
 
 .show {
   color: #000;
   background-color: #76CE82;
+  font-size: var(--font-size-medium);
+  height: 65px;
+  width: 65px;
+  padding: 20px 1px 0 1px;
+  margin-right: 2px;
+  border-radius: 5px;
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: all .5s ease-in;
 }
 
 /* Keyboard */
